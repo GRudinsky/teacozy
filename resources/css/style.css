@@ -1,0 +1,140 @@
+
+/* div {
+  border: 1px solid seashell;
+} */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+  top: 0px;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+header .logo {
+  height: 50px;
+  width: 155px;
+  float: left;
+  margin-left: 10px;
+  background-image: url(../images/img-tea-cozy-logo.png);
+  background-size: cover;
+}
+header nav {
+  justify-content: flex-end;
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 20px;
+}
+header a {
+  color: seashell;
+  font-size: 22px;
+  padding: 0 10px;
+  text-decoration: underline;
+}
+#main_content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  top: 69px;
+  width: 100%;
+}
+#mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url(../images/img-mission-background.jpg);
+  background-size: cover;
+}
+#mission .mission_content {
+  background-color: black;
+  width: 100%;
+}
+#featured_tea {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+.title {
+  width: 100%;
+}
+
+#featured {
+  width: 300px;
+  height: auto;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#featured .image {
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+}
+#featured p {
+  font-weight: bold;
+}
+.berry .image {
+  background-image: url(../images/img-berryblitz.jpg);
+}
+.spiced .image {
+  background-image: url(../images/img-spiced-rum.jpg);
+}
+.donuts .image{
+  background-image: url(../images/img-donut.jpg);
+}
+.myrtle .image{
+  background-image: url(../images/img-myrtle-ave.jpg);
+}
+.bizarre .image{
+  background-image: url(../images/img-bedford-bizarre.jpg);
+}
+#locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  height: 500px;
+  width: 1200px;
+  background-image: url(../images/img-locations-background.jpg);
+  background-size: cover;
+}
+#locations .title {
+  height: 60px;
+  padding-top: 15px;
+  margin: 15px 0;
+}
+
+#address {
+  margin: 15px 20px;
+  height: 250px;
+  width: 300px;
+  background-color: black;
+}
+
+footer {
+  width: 100%
+}
+.contacts {
+  height: 200px;
+}
+.copyright{
+  font-weight: bold;
+  text-align: left;
+  padding-left: 20px;
+}
